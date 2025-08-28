@@ -274,55 +274,68 @@ nav ul li a:hover {
 
 /* Portfolio Section */
 .portfolio-section {
-  max-width: 1100px;
-  margin: 0 auto 3.5rem auto;
-  padding: 2rem 0;
+  padding: 2.8rem 0 2rem 0;
+  background: #fafafa;
+}
+.portfolio-section h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #222;
 }
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 950px;
+  margin: 0 auto;
   justify-items: center;
 }
 .video-thumb {
   background: #fff;
-  box-shadow: 0 6px 16px rgba(40, 40, 40, 0.1);
-  border-radius: 12px;
+  border-radius: 18px;
+  box-shadow: 0 5px 24px rgba(30, 30, 30, 0.08);
   overflow: hidden;
-  cursor: pointer;
-  position: relative;
-  transition:
-    box-shadow 0.18s,
-    transform 0.14s;
-  text-align: center;
-  border: 2px solid #fafafa;
   width: 100%;
-  max-width: 320px;
+  max-width: 265px;
+  text-align: center;
+  transition:
+    box-shadow 0.16s,
+    transform 0.16s;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.video-thumb:hover {
-  box-shadow: 0 14px 36px #e6394616;
-  transform: scale(1.04);
-}
 .video-thumb img {
   width: 100%;
-  height: 180px;
+  aspect-ratio: 4/3;
   object-fit: cover;
-  border-radius: 12px 12px 0 0;
+  display: block;
 }
 .video-thumb span {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #181818;
+  padding: 1.15rem 0 0.8rem 0;
   display: block;
-  padding: 1rem 0 0.7rem 0;
-  font-weight: 600;
-  font-size: 1.02rem;
 }
-.video-thumb {
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
+.video-thumb:hover {
+  box-shadow: 0 14px 36px rgba(230, 57, 70, 0.13);
+  transform: translateY(-7px) scale(1.035);
+}
+@media (max-width: 900px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 580px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /* Contact Form Section */
