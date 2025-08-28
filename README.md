@@ -1,6 +1,6 @@
 ## 🚀Editkaro.in - An interactive and dynamic portfolio website
 
-📖 **Description**
+### 📖Description
 
 Editkaro.in is a responsive static website designed to showcase the services offered by Editkaro, a leading digital marketing agency in Los Angeles. The website is built using HTML, CSS, and JavaScript, and is optimized for search engines to improve its visibility and ranking. The website features a clean and modern design, with easy navigation and a user-friendly interface.
 
@@ -11,7 +11,7 @@ The website is divided into several sections, including:
 - About: This section provides information about the company, its mission, and its team.
 - Contact: This section provides a contact form and email address for visitors to get in touch with Editkaro.
 
-✨ **Features**
+### ✨Features
 
 1. **Responsive Design**: The website is designed to be responsive, meaning it adapts to different screen sizes and devices.
 2. **Search Engine Optimization (SEO)**: The website is optimized for search engines to improve its visibility and ranking.
@@ -22,7 +22,7 @@ The website is divided into several sections, including:
 7. **Lightbox Effect**: The website features a lightbox effect for video thumbnails, providing a seamless user experience.
 8. **Social Media Integration**: The website integrates social media links, allowing visitors to easily share content and connect with the company.
 
-🧰 **Tech Stack**
+### 🧰Tech Stack
 
 | Technology                 | Version                           |
 | -------------------------- | --------------------------------- |
@@ -33,7 +33,7 @@ The website is divided into several sections, including:
 | Search Engine Optimization | SEO principles and best practices |
 | Lightbox Effect            | Custom JavaScript and CSS         |
 
-📁 **Project Structure**
+### 📁Project Structure
 
 The project is structured into the following folders and files:
 
@@ -47,7 +47,7 @@ The project is structured into the following folders and files:
 - `images/`: A folder containing images used throughout the website.
 - `icons/`: A folder containing icons used throughout the website.
 
-⚙️ **How to Run**
+### ⚙️How to Run
 
 To run the website, follow these steps:
 
@@ -57,7 +57,7 @@ To run the website, follow these steps:
 4. Setup the CSS according to your choice and style, rest you can use the default as well.
 5. Open the website in your preferred web browser.
 
-🧪 **Testing Instructions**
+### 🧪Testing Instructions
 
 To test the website, follow these steps:
 
@@ -67,62 +67,62 @@ To test the website, follow these steps:
 4. Test the website's lightbox effect by clicking on a video thumbnail.
 5. Test the website's social media integration by clicking on the social media links.
 
-📸 **Screenshots**
+### 📸Preview
 
-### Home Page
+ Home Page
 
 ![Home Page](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_hero.png)
 
-### Digital World
+##### Digital World
 
 ![Services](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_Service.png)
 
-### Portfolio showcases
+##### Portfolio showcases
 
 ![Portfolio showcases](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_work.png)
 
-### Showcases
+##### Showcases
 
 ![Other Hero contents](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_footer.png)
 
-### Social Media Management
+####### Social Media Management
 
 ![Social Media Management]()
 
-### PPC
+##### PPC
 
 ![PPC](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/PPC.png)
 
-### Services
+##### Services
 
 ![Services](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Services.png)
 
-### SEO
+##### SEO
 
 ![SEO](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/SEO.png)
 
-### Web Design
+##### Web Design
 
 ![Web Design](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Webdesign.png)
 
-### Case Studies
+##### Case Studies
 
 ![Case Studies](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/casestudies.png)
 
-### About Us
+##### About Us
 
 ![About Us](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/aboutus.png)
 
-### Contact
+##### Contact
 
 ![Contact](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/contact.png)
 
-## 📦 **API Reference**
+### 📦API Reference
 
-👤 **Author**
+### 👤Author
 
 The website was developed by [Mangalam Mishra], a freelance web developer with expertise MERN Stack
 
-📝 **License**
+### 📝License
 
 The website is licensed under the [MIT License](https://opensource.org/licenses/MIT).
