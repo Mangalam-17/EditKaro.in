@@ -1,4 +1,4 @@
-🚀 **Editkaro.in - A Responsive Static Website**
+## 🚀Editkaro.in - A Responsive Static Website**
 
 📖 **Description**
 
