@@ -117,11 +117,10 @@ To test the website, follow these steps:
 
 ![Contact](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/contact.png)
 
-### 📦API Reference
 
 ### 👤Author
 
-The website was developed by [Mangalam Mishra], a freelance web developer with expertise MERN Stack
+The website was developed by [Mangalam Mishra], a freelance web developer with expertise in MERN Stack Development
 
 ### 📝License
 
