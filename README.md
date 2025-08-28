@@ -69,28 +69,42 @@ To test the website, follow these steps:
 
 📸 **Screenshots**
 
+### Home Page
 ![Home Page]()
 
+### Digital World
 ![Services]()
 
+### Portfolio showcases
 ![Portfolio showcases]()
 
+### Showcases
 ![Other Hero contents]()
 
+### Social Media Management
 ![Social Media Management]()
 
+### PPC
 ![PPC]()
 
+### ![Services]()
+
 ![Services]()
+
+### ![SEO]()
 
 ![SEO]()
 
+### Web Design
 ![Web Design]()
 
+### Case Studies
 ![Case Studies]()
 
+### About Us
 ![About Us]()
 
+### Contact
 ![Contact]()
 
 📦 **API Reference**
