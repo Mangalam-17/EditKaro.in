@@ -54,8 +54,8 @@ To run the website, follow these steps:
 1. Clone the repository to your local machine using `git clone`.
 2. Install the required images and links.
 3. Run the website using `index.html`.
-3. Setup the CSS according to your choice and style, rest you can use the default as well.
-4. Open the website in your preferred web browser.
+4. Setup the CSS according to your choice and style, rest you can use the default as well.
+5. Open the website in your preferred web browser.
 
 🧪 **Testing Instructions**
 
@@ -70,45 +70,54 @@ To test the website, follow these steps:
 📸 **Screenshots**
 
 ### Home Page
-![Home Page]()
+
+![Home Page](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_hero.png)
 
 ### Digital World
-![Services]()
+
+![Services](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_Service.png)
 
 ### Portfolio showcases
-![Portfolio showcases]()
+
+![Portfolio showcases](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_work.png)
 
 ### Showcases
-![Other Hero contents]()
+
+![Other Hero contents](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Home_footer.png)
 
 ### Social Media Management
+
 ![Social Media Management]()
 
 ### PPC
-![PPC]()
 
-### ![Services]()
+![PPC](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/PPC.png)
 
-![Services]()
+### Services
 
-### ![SEO]()
+![Services](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Services.png)
 
-![SEO]()
+### SEO
+
+![SEO](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/SEO.png)
 
 ### Web Design
-![Web Design]()
+
+![Web Design](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/Webdesign.png)
 
 ### Case Studies
-![Case Studies]()
+
+![Case Studies](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/casestudies.png)
 
 ### About Us
-![About Us]()
+
+![About Us](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/aboutus.png)
 
 ### Contact
-![Contact]()
 
-📦 **API Reference**
----
+![Contact](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/contact.png)
+
+## 📦 **API Reference**
 
 👤 **Author**
 
