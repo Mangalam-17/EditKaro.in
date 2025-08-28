@@ -71,7 +71,7 @@ To test the website, follow these steps:
 
 ### 📸Preview
 
- Home Page
+Home Page
 
 ![Home Page](https://github.com/Mangalam-17/EditKaro.in/blob/dba4f9182ceeecc9ccb8f89d7983e7c697e1ba10/Image_Preview/HomePage.png)
 
@@ -118,7 +118,6 @@ To test the website, follow these steps:
 ##### Contact
 
 ![Contact](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/contact.png)
-
 
 ### 👤Author
 
