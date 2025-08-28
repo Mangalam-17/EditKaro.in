@@ -1,4 +1,4 @@
-## 🚀Editkaro.in - A Responsive Static Website**
+## 🚀Editkaro.in - An interactive and dynamic portfolio website
 
 📖 **Description**
 
