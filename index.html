@@ -1,4 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Love Scene</title>
+</head>
+
+<body style="margin:0; overflow:hidden; font-family:Segoe UI, sans-serif;">
+
+  <!-- Background -->
+  <div
+    style="
+      height:100vh;
+      width:100vw;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:radial-gradient(circle at top, #ff758c, #ff7eb3);
+      position:relative;
+      overflow:hidden;
+    "
+  >
+
+    <!-- ❄️ Snowflakes -->
+    <div id="snowflakes"></div>
+
+    <!-- 💕 Hearts -->
+    <div id="hearts"></div>
+
+    <!-- ❤️ Text -->
+    <h2
+      style="
+        font-size:3.2rem;
+        color:white;
+        margin:0 0 10px;
+        text-shadow:0 8px 30px rgba(0,0,0,0.3);
+        animation:pulse 2.5s ease-in-out infinite;
+      "
+    >
+      Hello Sweetheart 💗
+    </h2>
+
+    <h3
+      style="
+        font-size:1.7rem;
+        color:#fffaf0;
+        font-weight:400;
+        margin-bottom:40px;
+        animation:fadeUp 2s ease forwards;
+      "
+    >
+      Merry Christmas! I hope you are having fun 🎄✨
+    </h3>
+
+    <!-- ✨ Button -->
+    <button
+      style="
+        padding:14px 36px;
+        font-size:1.1rem;
+        border-radius:40px;
+        border:none;
+        cursor:pointer;
+        background:linear-gradient(135deg, #ffffff, #ffe0ec);
+        color:#ff4d6d;
+        box-shadow:0 10px 30px rgba(255,77,109,0.4);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+      "
+      onmouseenter="this.style.transform='scale(1.15)'; this.style.boxShadow='0 15px 40px rgba(255,77,109,0.6)'"
+      onmouseleave="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 30px rgba(255,77,109,0.4)'"
+      onclick="alert('💖 Love is in the air!')"
+    >
+      💖 Spread Love
+    </button>
+
+  </div>
+
+  <!-- 🎞️ Animations -->
+  <style>
+    @keyframes snowfall {
+      from { transform: translateY(-10vh); }
+      to   { transform: translateY(110vh); }
+    }
+
+    @keyframes hearts {
+      from { transform: translateY(0) scale(0.8); opacity:0; }
+      50%  { opacity:1; }
+      to   { transform: translateY(-120vh) scale(1.2); opacity:0; }
+    }
+
+    @keyframes pulse {
+      0% { transform:scale(1); }
+      50% { transform:scale(1.05); }
+      100% { transform:scale(1); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity:0; transform:translateY(30px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+  </style>
+
+  <!-- 🧠 JS for Snow + Hearts -->
+  <script>
+    const snow = document.getElementById("snowflakes");
+    const hearts = document.getElementById("hearts");
+
+    for (let i = 0; i < 25; i++) {
+      const flake = document.createElement("span");
+      flake.innerText = "❄️";
+      flake.style.position = "absolute";
+      flake.style.left = Math.random() * 100 + "vw";
+      flake.style.fontSize = Math.random() * 14 + 10 + "px";
+      flake.style.opacity = Math.random();
+      flake.style.animation = `snowfall ${Math.random() * 5 + 6}s linear infinite`;
+      snow.appendChild(flake);
+    }
+
+    for (let i = 0; i < 12; i++) {
+      const heart = document.createElement("span");
+      heart.innerText = "💕";
+      heart.style.position = "absolute";
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.bottom = "-10vh";
+      heart.style.fontSize = Math.random() * 24 + 18 + "px";
+      heart.style.filter = "drop-shadow(0 0 10px rgba(255,255,255,0.8))";
+      heart.style.animation = `hearts ${Math.random() * 6 + 6}s ease-in-out infinite`;
+      hearts.appendChild(heart);
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,164 +151,8 @@
     <title>Editkaro.in</title>
     <link class="titleImg" rel="icon" href="228448021.png" type="image/png" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-
-  
+  </head>  
   <body>
-    <div
-  style={{
-    height: "100vh",
-    width: "100%",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-    background: "radial-gradient(circle at top, #ff758c, #ff7eb3)",
-    overflow: "hidden",
-    position: "relative",
-    fontFamily: "'Segoe UI', sans-serif",
-  }}
->
-  {/* ❄️ Snowflakes */}
-  {[...Array(20)].map((_, i) => (
-    <span
-      key={i}
-      style={{
-        position: "absolute",
-        top: "-10%",
-        left: `${Math.random() * 100}%`,
-        fontSize: `${Math.random() * 12 + 10}px`,
-        opacity: 0.8,
-        animation: `snowfall ${Math.random() * 5 + 5}s linear infinite`,
-      }}
-    >
-      ❄️
-    </span>
-  ))}
-
-  {/* 💕 Floating Hearts */}
-  {[...Array(10)].map((_, i) => (
-    <span
-      key={`heart-${i}`}
-      style={{
-        position: "absolute",
-        bottom: "-10%",
-        left: `${Math.random() * 100}%`,
-        fontSize: `${Math.random() * 20 + 16}px`,
-        color: "#fff",
-        filter: "drop-shadow(0 0 10px rgba(255,255,255,0.8))",
-        animation: `hearts ${Math.random() * 6 + 6}s ease-in-out infinite`,
-      }}
-    >
-      💕
-    </span>
-  ))}
-
-  {/* ❤️ Text Content */}
-  <h2
-    style={{
-      fontSize: "3.2rem",
-      color: "#fff",
-      marginBottom: "12px",
-      textShadow: "0 8px 30px rgba(0,0,0,0.3)",
-      animation: "pulse 2.5s ease-in-out infinite",
-    }}
-  >
-    Hello Sweetheart 💗
-  </h2>
-
-  <h3
-    style={{
-      fontSize: "1.7rem",
-      color: "#fffaf0",
-      marginBottom: "40px",
-      fontWeight: 400,
-      animation: "fadeUp 2s ease forwards",
-    }}
-  >
-    Merry Christmas! I hope you are having fun 🎄✨
-  </h3>
-
-  {/* ✨ Sparkle Button */}
-  <button
-    style={{
-      padding: "14px 36px",
-      fontSize: "1.1rem",
-      borderRadius: "40px",
-      border: "none",
-      cursor: "pointer",
-      background:
-        "linear-gradient(135deg, #ffffff, #ffe0ec)",
-      color: "#ff4d6d",
-      boxShadow: "0 10px 30px rgba(255,77,109,0.4)",
-      transition: "all 0.3s ease",
-      position: "relative",
-      overflow: "hidden",
-    }}
-    onMouseEnter={(e) =>
-      (e.currentTarget.style.transform = "scale(1.1)")
-    }
-    onMouseLeave={(e) =>
-      (e.currentTarget.style.transform = "scale(1)")
-    }
-  >
-    💖 Spread Love
-  </button>
-
-  {/* 🔑 Animations */}
-  <style>
-    {`
-      @keyframes snowfall {
-        to {
-          transform: translateY(120vh);
-        }
-      }
-
-      @keyframes hearts {
-        0% {
-          transform: translateY(0) scale(0.8);
-          opacity: 0;
-        }
-        50% {
-          opacity: 1;
-        }
-        100% {
-          transform: translateY(-120vh) scale(1.2);
-          opacity: 0;
-        }
-      }
-
-      @keyframes pulse {
-        0% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.05);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-
-      @keyframes fadeUp {
-        from {
-          opacity: 0;
-          transform: translateY(30px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-    `}
-  </style>
-</div>
-
-  </body>
-
-  
-  <!-- <body>
     <header class="main-header">
       <div class="navbar">
         <div class="logo">
@@ -407,5 +396,5 @@
       <video controls autoplay></video>
     </div>
     <script src="script.js"></script>
-  </body> -->
-</html>
+  </body>
+</html> -->
