@@ -8,10 +8,80 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h2>Hello Sweetheart 💗 </h2>
-      <h3>Merry Christmas! I hope you are having fun</h3>
-    </div>
+<div
+  style={{
+    height: "100vh",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    background: "linear-gradient(135deg, #ff9a9e, #fad0c4)",
+    textAlign: "center",
+    animation: "fadeIn 2s ease-in-out",
+  }}
+>
+  <h2
+    style={{
+      fontSize: "3rem",
+      color: "#ffffff",
+      marginBottom: "12px",
+      textShadow: "0 8px 20px rgba(0,0,0,0.25)",
+      animation: "float 3s ease-in-out infinite",
+    }}
+  >
+    Hello Sweetheart 💗
+  </h2>
+
+  <h3
+    style={{
+      fontSize: "1.6rem",
+      color: "#fffaf0",
+      fontWeight: "400",
+      animation: "slideUp 1.8s ease forwards",
+    }}
+  >
+    Merry Christmas! I hope you are having fun 🎄✨
+  </h3>
+
+  <style>
+    {`
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: scale(0.95);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    `}
+  </style>
+</div>
+
   </body>
   <!-- <body>
     <header class="main-header">
